@@ -3,7 +3,7 @@ var flashCards = require('./flashCards.js');
 
 /* 
 *
-* Basic Flashcards Tests
+* Basic Flashcard Tests
 *
 */
 
@@ -17,7 +17,7 @@ console.log(nowPresident.front);
 console.log(nowPresident.back);
 console.log('-------------------------------------');
 
-var oscarWinner = new flashCards.BasicCard('What movie won the Oscar for best picture at the 2017 Academy Awards?', 'Moonlight');
+var oscarWinner = new flashCards.BasicCard('What movie won the Oscar for best picture at the 2016 Academy Awards?', 'Moonlight');
 console.log(oscarWinner.front);
 console.log(oscarWinner.back);
 console.log('-------------------------------------');
@@ -29,7 +29,7 @@ console.log('-------------------------------------');
 
 /* 
 *
-* Cloze-Deleted Flashcards Tests
+* Cloze-Deleted Flashcard Tests
 *
 */
 
@@ -45,7 +45,7 @@ console.log(nowPresident.cloze);
 console.log(nowPresident.partial); 
 console.log('-------------------------------------');
 
-oscarWinner = new flashCards.ClozeCard('Moonlight won the Oscar for best picture at the 2017 Academy Awards.', 'Moonlight');
+oscarWinner = new flashCards.ClozeCard('Moonlight won the Oscar for best picture at the 2016 Academy Awards.', 'Moonlight');
 console.log(oscarWinner.full);
 console.log(oscarWinner.cloze); 
 console.log(oscarWinner.partial); 
